@@ -1,0 +1,118 @@
+h1{
+  font-size: 4em;
+  color: rgb(232, 230, 53);
+  font-weight: bold;
+  font-family: monospace;
+}
+
+h2{
+  font-size: 1.5em;
+  color: rgb(232, 230, 53);
+}
+
+h3{
+  font-size: 1em;
+  color: rgb(232, 230, 53);
+}
+
+body {
+  display: flex;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+#contener{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 800px;
+}
+
+header{
+  display: flex;
+  background-color: rgb(83, 162, 131);
+  justify-content: center;
+  width: 100%;
+
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0px 100px 0px;
+}
+
+#fourpages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.page{
+  display: flex;
+  background-color: rgb(241, 201, 233);
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.btnmenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 800ms;
+}
+
+.btnmenu:hover{
+  transform: scale(1.5);
+}
+
+#soon{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  background-color: rgb(83, 162, 131);
+  bottom: 0;
+  margin: 0 auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 800px;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.btnwiggle{
+padding: 0px 20px 0px 20px;
+}
+
+.btnwiggle:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media all and (max-width: 600px){
+  #fourpages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
