@@ -11,7 +11,7 @@ h2{
 }
 
 h3{
-  font-size: 1em;
+  font-size: 1.2em;
   color: rgb(232, 230, 53);
 }
 
@@ -39,7 +39,7 @@ header{
 #main{
   display: flex;
   flex-direction: column;
-  padding: 0 0px 100px 0px;
+  padding: 0px 0px 100px 0px;
 }
 
 #fourpages{
@@ -50,12 +50,24 @@ header{
 
 .page{
   display: flex;
-  background-color: rgb(241, 201, 233);
   width: 300px;
   height: 400px;
   justify-content: center;
   margin-top: 50px;
   align-items: center;
+  box-shadow: 1px 1px 5px rgba(99, 99, 99, 0.48);
+}
+
+#menu1{
+  background-color: rgba(235, 183, 150, 0.55);
+}
+
+#menu2{
+  background-color: rgba(249, 214, 248, 0.79);
+}
+
+#menu3{
+  background-color: rgba(0, 0, 0, 0.04);
 }
 
 .btnmenu{
@@ -75,6 +87,33 @@ header{
   justify-content: center;
 }
 
+#btnsoon{
+  background-color: rgb(83, 162, 131);
+  border-radius:10px;
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnsoon:after {
+  display: inline-block;
+  animation: dotty steps(1,end) 2s infinite;
+  content: '';
+  color: rgb(232, 230, 53);
+  font-size: 1.5em;
+}
+
+@keyframes dotty {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
+
 footer{
   display: flex;
   background-color: rgb(83, 162, 131);
@@ -92,11 +131,11 @@ padding: 0px 20px 0px 20px;
 }
 
 .btnwiggle:hover{
-  animation: shake 0.5s;
+  animation: wiggle 0.5s;
   animation-iteration-count: infinite;
 }
 
-@keyframes shake {
+@keyframes wiggle {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
