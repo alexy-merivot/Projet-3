@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "police1";
+  src: url("../Polices/Rochester/Rochester-Regular.ttf");
+}
+
+@font-face {
+  font-family: "police2";
+  src: url("../Polices/Amita/Amita-Regular.ttf");
+}
+
+@font-face {
+  font-family: "police3";
+  src: url("../Polices/Niconne/Niconne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "police4";
+  src: url("../Polices/Galada/Galada-Regular.ttf");
+}
+
+a{
+  text-decoration: none;
+}
+
 h1{
   font-size: 4em;
   color: rgb(232, 230, 53);
@@ -42,12 +66,6 @@ header{
   padding: 0px 0px 100px 0px;
 }
 
-#fourpages{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .page{
   display: flex;
   width: 300px;
@@ -59,15 +77,19 @@ header{
 }
 
 #menu1{
-  background-color: rgba(235, 183, 150, 0.55);
+  background-color: rgb(252, 223, 219);
 }
 
 #menu2{
-  background-color: rgba(249, 214, 248, 0.79);
+  background-color: rgb(255, 245, 254);
 }
 
 #menu3{
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: rgb(249, 249, 249);
+}
+
+#menu4{
+  background-color: rgb(253, 255, 253);
 }
 
 .btnmenu{
@@ -76,6 +98,38 @@ header{
   align-items: center;
   flex-direction: column;
   transition: transform 800ms;
+  cursor: pointer;
+}
+
+#note{
+  width: 30px;
+  height: 30px;
+}
+
+#btnmenu1{
+  font-family: "police1";
+  color: rgb(76, 35, 40);
+}
+
+#btnmenu2{
+  font-family: "police2";
+  background: -webkit-linear-gradient(left, rgb(226, 164, 103) , rgb(169, 126, 253) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+#btnmenu3{
+  font-family: "police3";
+  background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+#btnmenu4{
+  font-family: "police4";
+  background: -webkit-linear-gradient(left, rgb(113, 181, 101) , rgb(195, 255, 135) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .btnmenu:hover{
@@ -96,6 +150,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 #btnsoon:after {
@@ -128,6 +183,7 @@ footer{
 
 .btnwiggle{
 padding: 0px 20px 0px 20px;
+cursor: pointer;
 }
 
 .btnwiggle:hover{
@@ -149,9 +205,20 @@ padding: 0px 20px 0px 20px;
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@media all and (max-width: 600px){
+@media (max-width: 575px){
+
   #fourpages{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 600px){
+
+  #fourpages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }

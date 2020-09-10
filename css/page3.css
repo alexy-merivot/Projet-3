@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "police1";
+  src: url("/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/Projet_3/site_ohmyfood/Polices/Rochester");
+}
+h1{
+  font-family: "police1";
+  font-size: 3em;
+}
+
+h2{
+  font-family: "police1";
+  font-size: 2em;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  padding-bottom: 20px;
+}
+
+body{
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  margin: 0 auto;
+}
+
+header{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+#contener{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.titlemenu{
+  text-align: center;
+}
+
+.inmenu{
+  display: flex;
+  flex-direction: row;
+}
+
+.leftinmenu{
+  flex: 5;
+}
+
+.rightinmenu{
+  flex: 1;
+}
