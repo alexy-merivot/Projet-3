@@ -1,6 +1,6 @@
 @font-face {
   font-family: "police1";
-  src: url("/Users/alexymerivot/Desktop/OpenClassroom/Dev-web/Projet_3/site_ohmyfood/Polices/Rochester");
+  src: url("../Polices/Niconne/Niconne-Regular.ttf");
 }
 h1{
   font-family: "police1";
@@ -21,7 +21,7 @@ li{
 }
 
 body{
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(237, 239, 239);
   display: flex;
   margin: 0 auto;
 }
@@ -40,8 +40,21 @@ footer{
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .titlemenu{
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.texttitlemenu{
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
 }
 
 .inmenu{

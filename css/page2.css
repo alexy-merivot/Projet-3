@@ -1,6 +1,6 @@
 @font-face {
   font-family: "police1";
-  src: url("./Polices/Rochester");
+  src: url("../Polices/Amita/Amita-Regular.ttf");
 }
 h1{
   font-family: "police1";
@@ -28,6 +28,9 @@ body{
 
 header{
   text-align: center;
+  background: -webkit-linear-gradient(left, rgb(226, 164, 103) , rgb(169, 126, 253) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 footer{
@@ -40,8 +43,45 @@ footer{
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .titlemenu{
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.texttitlemenu{
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+#leftinmenu1{
+  color: rgb(200, 121, 27);
+}
+
+#leftinmenu2{
+  color: rgb(165, 103, 153);
+}
+
+#leftinmenu3{
+  color: rgb(122, 90, 208);
+}
+
+#titre1{
+  color: rgb(200, 121, 27);
+}
+
+#titre2{
+  color: rgb(165, 103, 153);
+}
+
+#titre3{
+  color: rgb(122, 90, 208);
 }
 
 .inmenu{
