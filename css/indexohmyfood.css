@@ -76,6 +76,28 @@ header{
   box-shadow: 1px 1px 5px rgba(99, 99, 99, 0.48);
 }
 
+#spanmenu1{
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#spanmenu2{
+  font-weight: bold;
+  color: rgb(226, 164, 103);
+  padding-top: 20px;
+}
+
+#spanmenu3{
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#spanmenu4{
+  font-weight: bold;
+  color: rgb(113, 181, 101);
+  padding-top: 20px;
+}
+
 #menu1{
   background-color: rgb(252, 223, 219);
 }

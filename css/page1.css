@@ -1,15 +1,18 @@
 @font-face {
   font-family: "police1";
-  src: url("./Polices/Rochester");
+  src: url("../Polices/Rochester/Rochester-Regular.ttf");
 }
 h1{
   font-family: "police1";
   font-size: 3em;
+  margin-top: 0px;
 }
 
 h2{
   font-family: "police1";
   font-size: 2em;
+  margin-top: 0px;
+  padding-left: 15px;
 }
 
 ul{
@@ -33,6 +36,16 @@ header{
 
 footer{
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.texttitlemenu{
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
 }
 
 #contener{
@@ -41,8 +54,27 @@ footer{
   margin: 0 auto;
   justify-content: space-between;
 }
+
+#note{
+  width: 100px;
+  height: 100px;
+}
+
+#note2{
+  width: 40px;
+  height: 40px;
+}
+
 .titlemenu{
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+li{
+  font-family: cursive;
 }
 
 .inmenu{
