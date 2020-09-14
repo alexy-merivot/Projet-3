@@ -47,7 +47,30 @@ footer{
   vertical-align: middle;
   justify-content: center;
   flex-direction: column;
-  width: 200px;
+  width: 250px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+
+}
+.texttitlemenu:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.texttitlemenu:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 #contener{
@@ -73,6 +96,7 @@ footer{
   text-align: center;
   font-weight: bold;
   font-family: cursive;
+  align-items: center;
 }
 
 li{
