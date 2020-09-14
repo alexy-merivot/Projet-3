@@ -64,7 +64,7 @@ footer{
   height: 2px;
   left: 50%;
   position: absolute;
-  background: black;
+  background: -webkit-linear-gradient(left, rgb(113, 181, 101) , rgb(195, 255, 135) 100%);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }

@@ -6,6 +6,9 @@
 h1{
   font-family: "police1";
   font-size: 3em;
+  background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 h2{
@@ -71,7 +74,7 @@ footer{
   height: 2px;
   left: 50%;
   position: absolute;
-  background: black;
+  background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
