@@ -227,7 +227,7 @@ cursor: pointer;
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-@media (max-width: 575px){
+@media (max-width: 599px){
 
   #fourpages{
     display: flex;
