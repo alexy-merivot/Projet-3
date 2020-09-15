@@ -2,7 +2,7 @@
   font-family: "police1";
   src: url("../Polices/Rochester/Rochester-Regular.ttf");
 }
-h1{
+h4{
   font-family: "police1";
   font-size: 3em;
   margin-top: 0px;
@@ -30,11 +30,11 @@ body{
   color: rgb(76, 35, 40);
 }
 
-header{
+#titre{
   text-align: center;
 }
 
-footer{
+#bottompage{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -60,7 +60,6 @@ footer{
   content: "";
   display: block;
   height: 2px;
-  left: 50%;
   position: absolute;
   background: black;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -68,7 +67,6 @@ footer{
 }
 .texttitlemenu:hover:after {
   width: 100%;
-  left: 0;
 }
 
 #contener{
@@ -76,6 +74,7 @@ footer{
   flex-direction: column;
   margin: 0 auto;
   justify-content: space-between;
+  max-width: 824px;
 }
 
 #note{
@@ -112,4 +111,80 @@ li{
 
 .rightinmenu{
   flex: 1;
+}
+
+header{
+  display: flex;
+  background-color: rgb(83, 162, 131);
+  justify-content: center;
+  width: 100%;
+}
+
+h1{
+  font-size: 4em;
+  color: rgb(232, 230, 53);
+  font-weight: bold;
+  font-family: monospace;
+}
+
+h3{
+  font-size: 1.2em;
+  color: rgb(232, 230, 53);
+}
+
+a:link {
+ text-decoration:none;
+}
+
+footer{
+  display: flex;
+  background-color: rgb(83, 162, 131);
+  bottom: 0;
+  margin: 0 auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  justify-content: space-between;
+  position: fixed;
+  flex: 1;
+  text-align: center;
+}
+
+.btnwiggle{
+padding: 0px 20px 0px 20px;
+cursor: pointer;
+}
+
+.btnwiggle:hover{
+  animation: wiggle 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wiggle {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+@media (max-width: 599px){
+
+  footer{
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px){
+
+  footer{
+    width: 824px;
+  }
 }

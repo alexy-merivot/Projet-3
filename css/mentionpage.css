@@ -1,108 +1,20 @@
-@font-face {
-  font-family: "police1";
-  src: url("../Polices/Niconne/Niconne-Regular.ttf");
-}
-
-h4{
-  font-family: "police1";
-  font-size: 3em;
-  background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
-  color: transparent;
-  -webkit-background-clip: text;
-}
-
-h2{
-  font-family: "police1";
-  font-size: 2em;
-}
-
-ul{
-  list-style-type: none;
-}
-
-li{
-  padding-bottom: 20px;
-}
-
 body{
-  background-color: rgb(237, 239, 239);
-  display: flex;
-  margin: 0 auto;
-}
-
-#titre{
-  text-align: center;
-}
-
-footer{
-  text-align: center;
-}
-
-#contener{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   justify-content: space-between;
-  width: 824px;
-}
-
-.titlemenu{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  font-weight: bold;
-  font-family: cursive;
-}
-
-.texttitlemenu{
-  display: flex;
-  vertical-align: middle;
-  justify-content: center;
-  flex-direction: column;
-  width: 250px;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  height: 20px;
-  display: inline-block;
-  position: relative;
-}
-.texttitlemenu:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  position: absolute;
-  background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.texttitlemenu:hover:after {
-  width: 100%;
-}
-
-.inmenu{
-  display: flex;
-}
-
-.leftinmenu{
-  flex: 5;
-}
-
-.rightinmenu{
-  flex: 1;
-}
-
-img{
-  width: 350px;
+  max-width: 824px;
 }
 
 header{
   display: flex;
   background-color: rgb(83, 162, 131);
   justify-content: center;
-  width: 100%;
+  width: 824px;
+}
+
+#titre{
+  text-align: center;
 }
 
 h1{
