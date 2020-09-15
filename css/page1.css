@@ -113,6 +113,10 @@ li{
   flex: 1;
 }
 
+img{
+  width: 400px;
+}
+
 header{
   display: flex;
   background-color: rgb(83, 162, 131);

@@ -34,10 +34,6 @@ body{
   text-align: center;
 }
 
-footer{
-  text-align: center;
-}
-
 #contener{
   display: flex;
   flex-direction: column;
@@ -95,7 +91,7 @@ footer{
 }
 
 img{
-  width: 350px;
+  width: 270px;
 }
 
 header{
