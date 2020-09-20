@@ -3,27 +3,6 @@
   src: url("../Polices/Amita/Amita-Regular.ttf");
 }
 
-h1{
-  font-size: 4em;
-  color: rgb(232, 230, 53);
-  font-weight: bold;
-  font-family: monospace;
-}
-
-a:link {
- text-decoration:none;
-}
-
-h2{
-  font-family: "police1";
-  font-size: 2em;
-}
-
-h3{
-  font-size: 1.2em;
-  color: rgb(232, 230, 53);
-}
-
 h4{
   font-family: "police1";
   font-size: 3em;
@@ -33,164 +12,27 @@ h4{
   -webkit-background-clip: text;
 }
 
-ul{
-  list-style-type: none;
-}
-
-li{
-  padding-bottom: 20px;
-}
-
 body{
   background-color: rgb(255, 245, 254);
-  display: flex;
-  margin: 0 auto;
-}
-
-header{
-  display: flex;
-  background-color: rgb(83, 162, 131);
-  justify-content: center;
-  width: 100%;
-}
-
-#contener{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  justify-content: space-between;
-  max-width: 824px;
-}
-
-.titlemenu{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  font-weight: bold;
-  font-family: cursive;
-  align-items: center;
-}
-
-.texttitlemenu{
-  display: flex;
-  vertical-align: middle;
-  justify-content: center;
-  flex-direction: column;
-  width: 300px;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  text-decoration: none;
-  height: 20px;
-  display: inline-block;
-  position: relative;
-
-}
-.texttitlemenu:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  position: absolute;
-  background: -webkit-linear-gradient(left, rgb(226, 164, 103) , rgb(169, 126, 253) 100%);
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.texttitlemenu:hover:after {
-  width: 100%;
-}
-
-#leftinmenu1{
-  color: rgb(200, 121, 27);
-}
-
-#leftinmenu2{
-  color: rgb(165, 103, 153);
-}
-
-#leftinmenu3{
-  color: rgb(122, 90, 208);
-}
-
-#titre1{
-  color: rgb(200, 121, 27);
-}
-
-#titre2{
-  color: rgb(165, 103, 153);
-}
-
-#titre3{
-  color: rgb(122, 90, 208);
-}
-
-.inmenu{
-  display: flex;
-  flex-direction: row;
-}
-
-.leftinmenu{
-  flex: 5;
-}
-
-.rightinmenu{
-  flex: 1;
 }
 
 img{
-  width: 250px;
+  width: 30%;
   height: 50px;
 }
 
-footer{
-  display: flex;
-  background-color: rgb(83, 162, 131);
-  bottom: 0;
-  margin: 0 auto;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  justify-content: space-between;
-  position: fixed;
-  flex: 1;
-  text-align: center;
+#titre1{
+  margin-bottom: 10px;
 }
 
-.btnwiggle{
-padding: 0px 20px 0px 20px;
-cursor: pointer;
+#top{
+  color: rgb(200, 121, 27);
 }
 
-.btnwiggle:hover{
-  animation: wiggle 0.5s;
-  animation-iteration-count: infinite;
+#middle{
+  color: rgb(165, 103, 153);
 }
 
-@keyframes wiggle {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-
-
-@media (max-width: 599px){
-
-  footer{
-    width: 100%;
-  }
-}
-
-@media (min-width: 600px){
-
-  footer{
-    width: 824px;
-  }
+#bottom{
+  color: rgb(122, 90, 208);
 }
