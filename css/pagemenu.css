@@ -92,11 +92,12 @@ li{
 }
 
 .leftinmenu{
-  flex: 5;
+  flex: 4;
 }
 
 .rightinmenu{
   flex: 1;
+  padding-left: 5%;
 }
 
 #bottom{
