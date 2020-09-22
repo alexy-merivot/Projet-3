@@ -26,6 +26,10 @@ li{
   justify-content: space-between;
 }
 
+h5{
+  font-size: 1rem;
+}
+
 #titre{
   text-align: center;
 }
