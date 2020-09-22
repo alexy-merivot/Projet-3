@@ -16,6 +16,55 @@ body{
   background-color: rgb(255, 245, 254);
 }
 
+
+#titre1:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: rgb(200, 121, 27);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#titre1:hover:after {
+  width: 100%;
+}
+
+#titre2:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: rgb(165, 103, 153);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#titre2:hover:after {
+  width: 100%;
+}
+
+#titre3:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: rgb(122, 90, 208);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#titre3:hover:after {
+  width: 100%;
+}
+
 img{
   width: 30%;
   height: 50px;

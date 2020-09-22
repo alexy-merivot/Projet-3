@@ -35,28 +35,13 @@ li{
   vertical-align: middle;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
   padding-bottom: 5px;
   text-transform: uppercase;
   text-decoration: none;
   height: 20px;
   display: inline-block;
   position: relative;
-
-}
-.texttitlemenu:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  position: absolute;
-  background: black;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.texttitlemenu:hover:after {
-  width: 100%;
+  width: 40%;
 }
 
 #contener{
@@ -84,6 +69,7 @@ li{
   font-weight: bold;
   font-family: cursive;
   align-items: center;
+  justify-content: space-around;
 }
 
 .inmenu{

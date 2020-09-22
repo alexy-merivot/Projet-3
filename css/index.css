@@ -19,14 +19,23 @@
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: rgb(232, 230, 53);
+}
+
+h4{
+  font-size: 1.7rem;
+}
+
+h5{
+  font-size: 1.3rem;
 }
 
 body {
   display: flex;
   min-height: 100%;
   margin: 0 auto;
+  font-size: 16px;
 }
 
 #contener{
@@ -99,6 +108,10 @@ main{
   cursor: pointer;
 }
 
+.btnmenu:hover{
+  transform: scale(1.5);
+}
+
 #note{
   width: 30px;
   height: 30px;
@@ -112,26 +125,22 @@ main{
 #btnmenu2{
   font-family: "police2";
   background: -webkit-linear-gradient(left, rgb(226, 164, 103) , rgb(169, 126, 253) 100%);
-  color: transparent;
+  color: rgba(255,255,255,0);
   -webkit-background-clip: text;
 }
 
 #btnmenu3{
   font-family: "police3";
   background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
-  color: transparent;
+  color: rgba(255,255,255,0);
   -webkit-background-clip: text;
 }
 
 #btnmenu4{
   font-family: "police4";
   background: -webkit-linear-gradient(left, rgb(113, 181, 101) , rgb(195, 255, 135) 100%);
-  color: transparent;
+  color: rgba(255,255,255,0);
   -webkit-background-clip: text;
-}
-
-.btnmenu:hover{
-  transform: scale(1.5);
 }
 
 #soon{
