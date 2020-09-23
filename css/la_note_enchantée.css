@@ -16,12 +16,15 @@ h4{
   margin-top: 0px;
 }
 
-li{
-  font-family: cursive;
+h5{
+  font-family: "police1";
+  font-size: 2em;
+  margin-top: 0px;
+  padding-left: 15px;
 }
 
 body{
-  background-color: rgb(252, 223, 219);
+  background: rgb(252, 223, 219);
   color: rgb(76, 35, 40);
 }
 
@@ -41,13 +44,17 @@ body{
   width: 100%;
 }
 
+img{
+  width: 30%;
+}
+
+li{
+  font-family: cursive;
+}
+
 #bottompage{
   text-align: center;
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
-}
-
-img{
-  width: 30%;
 }

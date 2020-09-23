@@ -3,7 +3,7 @@
   src: url("../Polices/Amita/Amita-Regular.ttf");
 }
 
-h4{
+h2{
   font-family: "police1";
   font-size: 3em;
   text-align: center;
@@ -13,10 +13,8 @@ h4{
 }
 
 body{
-  background-color: rgb(255, 245, 254);
+  background: rgb(255, 245, 254);
 }
-
-
 
 #titre1:after {
   background: none repeat scroll 0 0 transparent;

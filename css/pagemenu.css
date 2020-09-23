@@ -1,33 +1,14 @@
-ul{
-  list-style-type: none;
-}
-
-li{
-  padding-bottom: 20px;
-}
-
-a:link {
- text-decoration:none;
-}
-
 body{
   display: flex;
   margin: 0 auto;
 }
 
-ul{
-  list-style-type: none;
-  width: 100%;
-}
-
-li{
-  display: flex;
-  padding-bottom: 20px;
-  justify-content: space-between;
-}
-
-h5{
+h4{
   font-size: 1rem;
+}
+
+a:link {
+ text-decoration:none;
 }
 
 #titre{
@@ -45,6 +26,11 @@ h5{
   height: 20px;
   display: inline-block;
   position: relative;
+  font-family: cursive;
+}
+
+img{
+  width: 30%;
 }
 
 #contener{
@@ -70,9 +56,19 @@ h5{
   flex-direction: row;
   text-align: center;
   font-weight: bold;
-  font-family: cursive;
   align-items: center;
   justify-content: space-around;
+}
+
+ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+li{
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-between;
 }
 
 .inmenu{
@@ -93,13 +89,7 @@ h5{
   margin-bottom: 60px;
 }
 
-img{
-  width: 30%;
-}
-
-
 @media (max-width: 599px){
-
   footer{
     width: 100%;
   }
@@ -110,7 +100,6 @@ img{
 }
 
 @media (min-width: 600px){
-
   footer{
     width: 824px;
   }

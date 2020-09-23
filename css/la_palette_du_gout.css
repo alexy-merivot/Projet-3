@@ -1,18 +1,20 @@
 @font-face {
   font-family: "police1";
-  src: url("../Polices/Niconne/Niconne-Regular.ttf");
+  src: url("../Polices/Galada/Galada-Regular.ttf");
 }
 
-h4{
+h2{
   font-family: "police1";
   font-size: 3em;
-  background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
+  margin-top: 0px;
+  text-align: center;
+  background: -webkit-linear-gradient(left, rgb(113, 181, 101) , rgb(195, 255, 135) 100%);
   color: transparent;
   -webkit-background-clip: text;
 }
 
 body{
-  background-color: rgb(237, 239, 239);
+  background: rgb(253, 255, 253);
 }
 
 .texttitlemenu:after {
@@ -22,7 +24,7 @@ body{
   display: block;
   height: 2px;
   position: absolute;
-  background: rgb(87, 126, 234);
+  background: rgb(113, 181, 101);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -33,4 +35,8 @@ body{
 
 img{
   width: 30%;
+}
+
+li{
+  font-family: cursive;
 }

@@ -1,12 +1,18 @@
+h3{
+  font-size: 1.2em;
+  color: rgb(232, 230, 53);
+}
+
 footer{
   display: flex;
-  background-color: rgb(83, 162, 131);
+  background: rgb(83, 162, 131);
   bottom: 0;
   margin: 0 auto;
   padding-top: 7px;
   padding-bottom: 7px;
   justify-content: space-between;
   position: fixed;
+  font-family: serif;
 }
 
 .btnwiggle{
@@ -31,9 +37,4 @@ cursor: pointer;
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-h3{
-  font-size: 1.2em;
-  color: rgb(232, 230, 53);
 }
