@@ -3,7 +3,11 @@
   src: url("../Polices/Amita/Amita-Regular.ttf");
 }
 
-h2{
+body{
+  background: rgb(255, 245, 254);
+}
+
+h2{ /* titre de la page*/
   font-family: "police1";
   font-size: 3em;
   text-align: center;
@@ -12,11 +16,23 @@ h2{
   -webkit-background-clip: text;
 }
 
-body{
-  background: rgb(255, 245, 254);
+#titre1{
+  margin-bottom: 20px;
 }
 
-#titre1:after {
+#top{ /* entrées*/
+  color: rgb(200, 121, 27);
+}
+
+#middle{ /*plats*/
+  color: rgb(165, 103, 153);
+}
+
+#bottom{ /*desserts*/
+  color: rgb(122, 90, 208);
+}
+
+#titre1:after {/* animation soulignage titre 1*/
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -32,7 +48,7 @@ body{
   width: 100%;
 }
 
-#titre2:after {
+#titre2:after { /* animation soulignage titre 2*/
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -48,7 +64,7 @@ body{
   width: 100%;
 }
 
-#titre3:after {
+#titre3:after { /* animation soulignage titre 3*/
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -67,20 +83,4 @@ body{
 img{
   width: 30%;
   height: 50px;
-}
-
-#titre1{
-  margin-bottom: 10px;
-}
-
-#top{
-  color: rgb(200, 121, 27);
-}
-
-#middle{
-  color: rgb(165, 103, 153);
-}
-
-#bottom{
-  color: rgb(122, 90, 208);
 }

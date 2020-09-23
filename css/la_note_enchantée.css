@@ -3,32 +3,24 @@
   src: url("../Polices/Rochester/Rochester-Regular.ttf");
 }
 
-h2{
-  font-family: "police1";
-  font-size: 2em;
-  margin-top: 0px;
-  padding-left: 15px;
-}
-
-h4{
-  font-family: "police1";
-  font-size: 3em;
-  margin-top: 0px;
-}
-
-h5{
-  font-family: "police1";
-  font-size: 2em;
-  margin-top: 0px;
-  padding-left: 15px;
-}
-
 body{
   background: rgb(252, 223, 219);
   color: rgb(76, 35, 40);
 }
 
-.texttitlemenu:after {
+#note{
+  width: 100px;
+  height: 100px;
+}
+
+h2{ /* titre de la page*/
+  font-family: "police1";
+  font-size: 2em;
+  margin-top: 0px;
+  padding-left: 15px;
+}
+
+.texttitlemenu:after { /* animation soulignage*/
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -52,9 +44,21 @@ li{
   font-family: cursive;
 }
 
-#bottompage{
+#bottompage{ /* image et titre en bas de page*/
   text-align: center;
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+}
+
+#note2{
+  width: 40px;
+  height: 40px;
+}
+
+h5{
+  font-family: "police1";
+  font-size: 2em;
+  margin-top: 0px;
+  padding-left: 15px;
 }

@@ -3,7 +3,11 @@
   src: url("../Polices/Niconne/Niconne-Regular.ttf");
 }
 
-h2{
+body{
+  background: rgb(237, 239, 239);
+}
+
+h2{ /* titre de la page*/
   font-family: "police1";
   font-size: 3em;
   background: -webkit-linear-gradient(left, rgb(87, 126, 234) , rgb(73, 164, 249) 100%);
@@ -11,11 +15,7 @@ h2{
   -webkit-background-clip: text;
 }
 
-body{
-  background: rgb(237, 239, 239);
-}
-
-.texttitlemenu:after {
+.texttitlemenu:after { /* animation soulignage*/
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";

@@ -3,19 +3,23 @@ body{
   margin: 0 auto;
 }
 
-h4{
-  font-size: 1rem;
-}
-
 a:link {
  text-decoration:none;
+}
+
+#contener{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 824px;
 }
 
 #titre{
   text-align: center;
 }
 
-.texttitlemenu{
+.texttitlemenu{ /*texte des titres entrées plats desserts*/
   display: flex;
   vertical-align: middle;
   justify-content: center;
@@ -29,29 +33,11 @@ a:link {
   font-family: cursive;
 }
 
-img{
+img{ /*bordures de part et d'autre des titres */
   width: 30%;
 }
 
-#contener{
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  justify-content: space-between;
-  max-width: 824px;
-}
-
-#note{
-  width: 100px;
-  height: 100px;
-}
-
-#note2{
-  width: 40px;
-  height: 40px;
-}
-
-.titlemenu{
+.titlemenu{ /* section avec le titre des plats/entrées/desserts ainsi que les 2 images bordures de part et d'autre du titre*/
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -71,16 +57,16 @@ li{
   justify-content: space-between;
 }
 
-.inmenu{
+.inmenu{ /* tout ce que contient le menu*/
   display: flex;
   flex-direction: row;
 }
 
-.leftinmenu{
+.leftinmenu{ /* description des plats*/
   flex: 4;
 }
 
-.rightinmenu{
+.rightinmenu{ /* prix */
   flex: 1;
   padding-left: 5%;
 }
