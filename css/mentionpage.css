@@ -23,5 +23,7 @@ a:link {
 
 @media (min-width: 600px){
 
-  
+  footer{
+    width: 824px;
+  }
 }
