@@ -155,20 +155,19 @@ main{
   cursor: pointer;
 }
 
-#btnsoon:after { /* animation bouton prochainement*/
-  display: inline-block;
-  animation: dotty steps(1,end) 2s infinite;
-  content: '';
-  color: rgba(232, 230, 53,1);
-  font-size: 1.5em;
+#btnsoon:after{ /* animation points de suspension du bouton prochainement */
+
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    animation: ellipsis steps(4,end) 2s infinite;
+    content: "...";
+    width: 0px;
 }
 
-@keyframes dotty {
-  0%   { content: ''; }
-  25%  { content: '.'; }
-  50%  { content: '..'; }
-  75%  { content: '...'; }
-  100% { content: ''; }
+@keyframes ellipsis {
+
+    to { width: 20px; }
 }
 
 @media (max-width: 599px){
